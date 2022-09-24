@@ -1,0 +1,17 @@
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\bin\Debug\net6.0\CCM.App.Persistencia.deps.json
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\bin\Debug\net6.0\CCM.App.Persistencia.runtimeconfig.json
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\bin\Debug\net6.0\CCM.App.Persistencia.dll
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\bin\Debug\net6.0\CCM.App.Persistencia.pdb
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\obj\Debug\net6.0\CCM.App.Persistencia.csproj.AssemblyReference.cache
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\obj\Debug\net6.0\CCM.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\obj\Debug\net6.0\CCM.App.Persistencia.AssemblyInfoInputs.cache
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\obj\Debug\net6.0\CCM.App.Persistencia.AssemblyInfo.cs
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\obj\Debug\net6.0\CCM.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\obj\Debug\net6.0\CCM.App.Persistencia.dll
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\obj\Debug\net6.0\refint\CCM.App.Persistencia.dll
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\obj\Debug\net6.0\CCM.App.Persistencia.pdb
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\obj\Debug\net6.0\CCM.App.Persistencia.genruntimeconfig.cache
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\obj\Debug\net6.0\ref\CCM.App.Persistencia.dll
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\bin\Debug\net6.0\CCM.App.Dominio.dll
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\bin\Debug\net6.0\CCM.App.Dominio.pdb
+D:\Desktop\CCM\CCM.App\CCM.App.Persistencia\obj\Debug\net6.0\CCM.App.Persistencia.csproj.CopyComplete

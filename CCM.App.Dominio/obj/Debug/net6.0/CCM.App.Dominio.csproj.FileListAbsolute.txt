@@ -1,0 +1,12 @@
+D:\Desktop\CCM\CCM.App\CCM.App.Dominio\bin\Debug\net6.0\CCM.App.Dominio.deps.json
+D:\Desktop\CCM\CCM.App\CCM.App.Dominio\bin\Debug\net6.0\CCM.App.Dominio.dll
+D:\Desktop\CCM\CCM.App\CCM.App.Dominio\bin\Debug\net6.0\CCM.App.Dominio.pdb
+D:\Desktop\CCM\CCM.App\CCM.App.Dominio\obj\Debug\net6.0\CCM.App.Dominio.csproj.AssemblyReference.cache
+D:\Desktop\CCM\CCM.App\CCM.App.Dominio\obj\Debug\net6.0\CCM.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\CCM\CCM.App\CCM.App.Dominio\obj\Debug\net6.0\CCM.App.Dominio.AssemblyInfoInputs.cache
+D:\Desktop\CCM\CCM.App\CCM.App.Dominio\obj\Debug\net6.0\CCM.App.Dominio.AssemblyInfo.cs
+D:\Desktop\CCM\CCM.App\CCM.App.Dominio\obj\Debug\net6.0\CCM.App.Dominio.csproj.CoreCompileInputs.cache
+D:\Desktop\CCM\CCM.App\CCM.App.Dominio\obj\Debug\net6.0\CCM.App.Dominio.dll
+D:\Desktop\CCM\CCM.App\CCM.App.Dominio\obj\Debug\net6.0\refint\CCM.App.Dominio.dll
+D:\Desktop\CCM\CCM.App\CCM.App.Dominio\obj\Debug\net6.0\CCM.App.Dominio.pdb
+D:\Desktop\CCM\CCM.App\CCM.App.Dominio\obj\Debug\net6.0\ref\CCM.App.Dominio.dll
