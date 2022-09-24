@@ -11,6 +11,7 @@ namespace CCM.App.Persistencia
         Residente AddResidente(Residente residente);
         Residente UpdateResidente(Residente residente);
         Residente GetResidente(int idResidente);
+        IEnumerable<Residente> GetResidentesPorFiltro(string filtro);
         IEnumerable<Residente> GetAllResidentes();
         void DeleteResidente(int idResidente);
     }

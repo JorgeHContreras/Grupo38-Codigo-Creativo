@@ -1,0 +1,33 @@
+﻿@page
+@model CCM.App.Frontend.Pages.ResidentesModel
+@{
+}
+<h1>Lista de residentes</h1>
+<p><form method="get">
+    <div class="form-group">
+        <input type="text" name="filtroBusqueda" />
+        <input type="submit" value="Buscar" />
+        <a class="btn btn-primary " asp-page="./Update">Agregar residente</a>
+</form></p>
+<br>
+<table class="table">
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Cedula</th>
+        <th>Apartamento</th>
+    </tr>
+    @foreach (var residente in Model.residentes)
+    {
+        <tr>
+            <td>@residente.nombre</td>
+            <td>@residente.apellido</td>
+            <td>@residente.cedula</td>
+            <td>@residente.apartamento</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Update"
+                asp-route-residenteId="@residente.id">Actualizar</a>
+            </td>
+        </tr>
+    }
+</table>

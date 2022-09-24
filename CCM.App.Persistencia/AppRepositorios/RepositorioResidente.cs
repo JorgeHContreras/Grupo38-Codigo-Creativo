@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CCM.App.Persistencia
 {
-    
+
     public class RepositorioResidente : IRepositorioResidente
     {
         private readonly AppContext _appContext;
@@ -15,12 +15,15 @@ namespace CCM.App.Persistencia
             _appContext = appContext;
         }
 
-        
         public Residente AddResidente(Residente residente)
         {
-            var residenteAdicionado = _appContext.residentes.Add(residente);
+            //residente.id = _appContext.residentes.Max(r => r.id) +1;
+            //var residenteAdicionado = _appContext.residentes.Add(residente);
+            //_appContext.SaveChanges();
+            //return residenteAdicionado.Entity;
+            _appContext.residentes.Add(residente);
             _appContext.SaveChanges();
-            return residenteAdicionado.Entity;
+            return residente;
         }
         public Residente UpdateResidente(Residente residente)
         {
@@ -39,6 +42,19 @@ namespace CCM.App.Persistencia
         {
             return _appContext.residentes.FirstOrDefault(p => p.id == idResidente);
         }
+        public IEnumerable<Residente> GetResidentesPorFiltro(string filtro = null)
+        {
+            var residentes = GetAllResidentes();
+            if (residentes != null)
+            {
+                if (!String.IsNullOrEmpty(filtro))
+                {
+                    residentes = residentes.Where(s => (s.nombre.Contains(filtro) || s.apellido.Contains(filtro) 
+                    || s.cedula.ToString().Contains(filtro) || s.apartamento.Contains(filtro)));
+                }
+            }
+            return residentes;
+        }
         public IEnumerable<Residente> GetAllResidentes()
         {
             return _appContext.residentes;
@@ -47,12 +63,12 @@ namespace CCM.App.Persistencia
         {
             var residenteEncontrado = _appContext.residentes.FirstOrDefault(p => p.id == idResidente);
             if (residenteEncontrado == null)
-            return;
+                return;
             _appContext.residentes.Remove(residenteEncontrado);
             _appContext.SaveChanges();
-            
-            
-          
+
+
+
         }
     }
 }
