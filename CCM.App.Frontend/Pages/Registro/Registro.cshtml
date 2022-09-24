@@ -1,0 +1,35 @@
+﻿@page
+@model CCMWeb.App.Frontend.Pages.RegistroModel
+@{
+}
+<h1>Lista de registros</h1>
+<p><form method="get">
+    <div class="form-group">
+        <input type="text" name="filtroBusqueda" />
+        <input type="submit" value="Buscar" />
+        <a class="btn btn-primary " asp-page="./Update">Codigo Creativo - Agregar registro </a>
+</form></p>
+<br>
+<table class="table">
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Cedula</th>
+        <th>Apartamento</th>
+        <th>Asunto</th>
+        <th>Fecha entrada</th>
+        <th>Fecha de salida</th>
+    </tr>
+    @foreach (var value in Model._lista)
+    {
+        <tr>
+            <td>@value.nombre</td>
+            <td>@value.apellido</td>
+            <td>@value.cedula</td>
+            <td>@value.apartamento</td>
+            <td>@value.asunto</td>
+            <td>@value.fechaDeEntrada</td>
+            <td>@value.fechaDeSalida</td>
+        </tr>
+    }
+</table>

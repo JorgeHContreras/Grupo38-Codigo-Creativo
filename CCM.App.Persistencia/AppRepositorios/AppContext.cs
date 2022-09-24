@@ -7,7 +7,7 @@ namespace CCM.App.Persistencia
     {
         public DbSet<Eventos> Eventos { get; set; }
         public DbSet<Persona> personas { get; set; }
-        public DbSet<Registro> registros{ get; set; }
+        public DbSet<Registro> registros { get; set; }
         public DbSet<RegistroParqueadero> registrosParqueadero { get; set; }
         public DbSet<Residente> residentes{ get; set; }
         public DbSet<ResidenteCorrespondencia> residentesCorrespondecia { get; set; }

@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using CCM.App.Dominio;
 using CCM.App.Persistencia;
-using CCM.App.Persistencia;
 
 namespace CCM.App.Frontend.Pages
 {
